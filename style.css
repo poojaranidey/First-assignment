@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.navbar{
+    height:70px;
+    background-color:lightpink;
+    color:white;
+    text-align: right;
+}
+.navbar ul li {
+    display: inline-block;
+    margin:0px 40px;
+    font-size:20px;
+}
+.navbar ul li a{
+    color:lightyellow;
+    text-decoration: none;
+}
+.navbar h3{
+    font-size:20px;
+    text-align: left;
+}
+.orange-color{
+    color:orange;
+}
+h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    line-height: 30px;
+    margin-top: 39px;
+    margin-bottom: 25px;
+    padding-right: 30px;
+    text-align: justify;
+}
+.my-work{
+    text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.link-button a{
+    margin-top: 10px;
+}
+.top-banner{
+    background-image: url('images/shapes/top-banner.png');
+    background-repeat: no-repeat;
+    
+}
+.half-width{
+    width:50%;
+    padding-left: 6% ;
+    margin-top: 100px;
+}
+.half-width img{
+    width: 90%;
+    margin-top: -49px;
+    
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 120px;
+    
+}
+.about-me{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.column{ 
+    width:100%;
+    float:left;
+    margin-bottom: 150px;
+    padding: 20px 20px;
+}
+.column img{
+    border-radius: 30px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.recipe-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 30px;
+    height:500px;
+}
+.recipe1{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1 ;
+  
+}
+.recipe2{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1 ;
+  
+}
+.recipe3{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1 ;
+  
+}
+.work-inc__title{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+
+}
+.work-inc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background-color:lightpink;
+    background-size: cover;
+    height: 230px;
+    padding: 0 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.work-inc__button{
+    padding: 20px 40px;
+    background: linear-gradient(45deg, #ff8367, tomato);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19.2px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.contact__title {
+    text-align: center;
+    text-transform: uppercase;
+    color: dimgray;
+    font-size: 24px;
+}
+.contact__mail{
+    text-decoration: none;
+    color: #363958;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.contact__social{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.contact__social-icon{
+    width: 50px;
+    height: 50px;
+}
+footer {
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+footer h3{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
